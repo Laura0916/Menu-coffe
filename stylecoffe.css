@@ -1,0 +1,75 @@
+/*En css existen clases y elementos y al final los dos se les llama "selector" todo lo que esta abajo son selector.
+ Las clases van con un .antes del nombre y uno les crea el nombre y los elementos son lo que ya sabemos que es por ejemplo h1, body etc entonce no llevan .*/
+h1,h2,p{
+    text-align:center;
+}
+body{
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family:sans-serif;
+    padding: 20px;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h1,h2{
+    font-family:Impact, serif;
+  }
+img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -25px; /*el - sirve para quitar el espacio que hay encima de la imagen o texto*/
+}
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.established{
+    font-style: italic;
+}
+hr{
+    height: 2px;
+    background-color: brown; 
+    border-color: brown;
+  }
+  .bottom-line{
+    margin-top:25px;
+  }
+  /*FOOTER*/
+  footer{
+    font-size: 14px;
+  }
+  a{/*cambiar el color del link*/
+    color: black;
+  }
+  a:visited{ /* cuando ya has visitado el link se pondra de color gris*/
+    color: grey;
+  }
+  a:hover{ /*sirve para cambiar el color cuando ponemos el mouse sobre el link sin seleccionarlo aun*/
+    color: brown;
+  }
+  a:active{/*cambiar el color cuando esta el link abierto*/
+    color: white;
+  }
+  .address{
+    margin-bottom:5px;
+    }
